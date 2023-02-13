@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Ceviche One', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Delius', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Laila',  sans-serif;
+font-family: 'Mali', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Merienda', cursive;
+font-family: 'Padauk', sans-serif;
+font-family: 'Rancho', cursive;
+font-family: 'Sansita', sans-serif;
+font-family: 'Sofia', cursive; 
+ */
+ /* .link-text{
+    font-size: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 0px;
+    /* color: rgb(216, 41, 41); */
+   
+ /* }
+ .link-text-content{
+        margin:0px ;
+        color: white;
+        /* color: black; */
+        /* font-size: 30px; */
+        /* font-family: 'Mali', cursive; */
+        /* font-family: 'Itim', cursive; */
+        /* font-family: 'Dancing Script', cursive; */
+        /* font-family: 'Rancho', cursive; */
+ /* } */
+ /* .navbar{ */
+    /* background-color:rgb(41, 219, 18); */
+    /* background-color:rgb(32, 37, 32); */
+    /* background-color: rgb(210, 249, 210);
+    padding: 0px;
+    height: 60px;
+ }
+ .link-text-head{ */
+    /* font-family: 'Dancing Script', cursive; */
+    /* color: white;
+    font-size:40px;
+    margin-top:20px ;
+    font-family: 'Rancho', cursive;
+ } */ 
+ .navbar{
+   background:#333;
+   color: white;
+ }
+.nav-link{
+   font-family: 'Rancho', cursive;
+   color: white !important;
+   padding: 20px;
+ } 
+.footer-hr{
+   padding: 0px;
+   margin: 0px;
+   /* color: black; */
+   background-color: black;
+   height: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer{
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(210, 249, 210);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-content{
+   padding-bottom: 4px;
+   font-weight: 600;
+   margin: 0px;
+   text-align: center;
+ font-family: 'Itim', cursive;
+ font-size: 20px;
 }

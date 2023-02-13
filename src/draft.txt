@@ -1,0 +1,9 @@
+          this is wir web dlopment(front end images)
+            <img src='https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360' alt='' className='s-img'></img>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='' className='s-img'></img>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' alt='' className='s-img'></img>
+
+          this are programming languages links
+                <img src='https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png' alt='' className='s-img'></img>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png' alt='' className='s-img'></img>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' alt='' className='s-img'></img>

@@ -1,0 +1,221 @@
+.c{
+    height: 100vh;
+    position: relative;
+    /* color: white; */
+    color: black;
+    /* background-color:rgb(53, 78, 53) ; */
+    background-color: rgb(210, 249, 210);
+}
+.c-bg{
+    width: 20px;
+    background-color:rgb(41, 219, 18);
+    height: 100vh;
+    position: absolute;
+}
+.c-wrapper{
+    display: flex;
+}
+.c-left{
+    flex: 1;
+    padding: 50px;
+    position: relative;
+}
+.c-right{
+    flex: 1.3;
+    width: 100%;
+}
+.contact{
+    font-weight: 400;
+    font-size: 50px;
+}
+.thank{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Sofia', cursive; 
+
+}
+.for{
+    margin-top:0px ;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Sansita', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+form{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    /* border-bottom: 1px solid white; */
+    border-bottom: 1px solid black;
+    /* background-color: rgb(53, 78, 53) ; */
+    background-color: rgb(210, 249, 210);
+    /* color: white; */
+    color: black;
+
+}
+label{
+    width: 100%;
+    height: 5px;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    /* font-family: 'Handlee', cursive; */
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Rancho', cursive;
+    font-size: 35px;
+
+}
+textarea{
+    /* background-color: rgb(54, 79, 54); */
+    background-color: rgb(210, 249, 210);
+    border: none;
+    /* border-bottom: 1px solid white; */
+    border-bottom: 1px solid black;
+    width: 70%;
+    height: 80px;
+    /* color: white; */
+    color: black;
+    font-size: 20px;
+}
+.form-group{
+    margin-top: 35px;
+}
+button{
+    border: none;
+    background-color:rgb(41, 219, 18);
+    color:black;
+    padding: 10px 25px;
+    border-radius: 10%;
+}
+.contact-img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10%;
+    width: 280px;
+    height: 300px;
+    left: 80px;
+}
+input:hover{
+    border-radius: 7px;
+    /* border: 1px solid white; */
+    border: 1px solid black;
+    height: 42px;
+}
+/* input:active{
+    border: 1px solid white;
+    border-radius: 7px;
+} */
+textarea:hover{
+    border-radius: 7px;
+    /* border: 1px solid white; */
+    border: 1px solid black;
+
+}
+textarea:active{
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.button-text{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Rancho', cursive;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.c-matters{
+    /* font-family: 'Mali', cursive; */
+    font-family: 'Laila', sans-serif;
+    width: 90%;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+@media screen and (max-width:480px) {
+    .c-wrapper{
+        flex-direction:column;
+        height: 100%;
+    }
+    .c{
+        height: 100%;
+    }
+    .c-bg{
+        height: 100%;
+    }
+    .contact-submit-button{
+        margin-bottom: 10px;
+        
+    }
+    .c-left{
+        padding-left: 5px;
+        margin-left: 23px;
+        padding-right: 8px;
+        padding-bottom: 20px;
+    }
+    .thank{
+        font-size: 30px;
+        width: 100%;
+    }
+    .for{
+        font-size: 22px;
+        width: 100%;
+
+    }
+    .c-matters{
+        padding: 5px;
+        width: 100%;
+    }
+    .c-right{
+        margin-top: 10px;
+    }
+    form{
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:1150px) and (min-width:480px){
+    .c-right{
+        flex: 1.3;
+    }
+    .c-left{
+        padding-right: 0px;
+    }
+    form{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:830px) and (min-width:750px){
+    .c-right{
+        flex: 1.5;
+        
+    }
+    .c-left{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width:750px) and (min-width:480px){
+    .c-right{
+        
+    }
+    .c-left{
+        padding-right: 0px;
+        flex: 1.3;
+    }
+    form{
+        margin-left: 50px;
+    }
+    .c-matters{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:942px){
+    .contact-img{
+        display: none;
+    }
+
+}
